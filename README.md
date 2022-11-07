@@ -17,6 +17,8 @@ Single `/items` resource with GET `findById` and POST new resource. See tests fo
 
 ### Development
 
+Requires JDK 19.
+
 Build: `./mvnw clean install`
 
 Run local (supports hot reload): `./mvnw spring-boot:run`
@@ -35,3 +37,4 @@ Run local (supports hot reload): `./mvnw spring-boot:run`
   - Add publishing domain events / async communication.
 6. Introduce _OpenApi_.
 7. Review use of Spring.
+8. Add contract tests.
